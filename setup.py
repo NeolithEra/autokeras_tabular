@@ -6,7 +6,7 @@ setup(
     packages=find_packages(exclude=('tests',)),
     install_requires=['autokeras>=0.3.7',
                       'lightgbm>=2.2.3',
-                      'numpy>=1.16.1'],
+                      'numpy==1.16.1'],
     version='0.3.7.1',
     description='AutoML Tabular addon for deep learning',
     author='Original Author: DATA Lab at Texas A&M University',
